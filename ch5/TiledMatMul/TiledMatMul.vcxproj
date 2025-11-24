@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AA6D32A6-B8C3-F184-ED98-6F2BD3349C5F}</ProjectGuid>
-    <RootNamespace>MatMul</RootNamespace>
+    <ProjectGuid>{ABABDCBB-DD7A-5DC5-253A-8DDFE410E1DE}</ProjectGuid>
+    <RootNamespace>TiledMatMul</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

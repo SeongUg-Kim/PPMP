@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AA6D32A6-B8C3-F184-ED98-6F2BD3349C5F}</ProjectGuid>
-    <RootNamespace>MatMul</RootNamespace>
+    <ProjectGuid>{16CE622D-FB33-37F5-4E2B-698825A1EAF4}</ProjectGuid>
+    <RootNamespace>DeviceProperties</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -77,7 +77,7 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="deviceProperties.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
